@@ -11,7 +11,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/',include('accounts.endpoints')),
 
-     path('schema/', get_schema_view(
+    path('schema/', get_schema_view(
         title="USersAPI",
         description="API for the Users",
         version="1.0.0"
