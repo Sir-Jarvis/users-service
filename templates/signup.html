@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>ENT | Espace Numérique de Travail</title>
+    <meta name="viewport" content="width = 375, initial-scale = -1">
+  </head>
+
+  <body style="background-color: #ffffff; font-size: 16px;">
+    <center>
+      <table align="center" border="0" cellpadding="0" cellspacing="0" style="height:100%; width:600px;">
+          <!-- BEGIN EMAIL -->
+          <tr>
+            <td align="center" bgcolor="#ffffff" style="padding:30px">
+                <p>
+                    <img src="cid:logo.png" />
+                </p>
+
+                <p>
+                    <a target="_blank" style="text-decoration:none; background-color: #DFBF70; border: #DFBF70 1px solid; color:black; padding:10px 10px; display:block;font-size: 18px;" href="#">
+                      <strong>{{title}}</strong></a>
+                </p>
+
+               <p style="text-align:left">Bonjour M. {{user.first_name}} {{user.last_name}},<br><br> 
+                Votre compte a été créé avec succès avec comme profil <b>{{role.role_type}} {{role.classe}} {{role.departement}}</b> durant l'année scolaire <b>{{annee}}</b>.
+                Voici vos identifiants pour se connecter à la plateforme: 
+                <br>
+                <br>
+
+                Email: <b>{{user.email}}</b><br>
+                Mot de passe: <b>{{password}}</b> 
+
+              </p>
+              
+              <p style="text-align:left">Cliquez sur ce lien pour accéder à la page de connexion <a href="#">ent-ept.sn</a> .<br> Vous pouvez modifier le mot de passe une fois connecté.<br></p>
+              <br>
+              <br>
+              <br>
+              <p>
+                <span style="text-align:center; font-size: 18px;">Copyright EPT &copy; <b>2021</b> </span>
+              </p>
+              <p>
+                <span style="text-align:center"><img src="cid:ept.png" width="40" height="40" /></span>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>
