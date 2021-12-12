@@ -99,19 +99,6 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
 
-# from datetime import timedelta
-# from rest_framework.settings import api_settings
-
-# REST_KNOX = {
-#   'SECURE_HASH_ALGORITHM': 'cryptography.hazmat.primitives.hashes.SHA512',
-#   'AUTH_TOKEN_CHARACTER_LENGTH': 64,
-#   'TOKEN_TTL': timedelta(hours=10),
-#   'USER_SERIALIZER': 'knox.serializers.UserSerializer',
-#   'TOKEN_LIMIT_PER_USER': None,
-#   'AUTO_REFRESH': True,
-#   'EXPIRY_DATETIME_FORMAT': api_settings.DATETME_FORMAT,
-# }
-
 AUTH_USER_MODEL = 'accounts.User'
 
 MIDDLEWARE = [
