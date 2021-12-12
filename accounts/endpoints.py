@@ -40,9 +40,9 @@ urlpatterns = [
     path('get/user/<int:pk>/', getUserInfoWithID.as_view()),
     path('classes', ListeClasse.as_view()),
    
-    path('liste/ETUDIANT/', ListAllEtudiant.as_view()), #endpoints de la liste des étudiants
-    path('liste/INSTITUTION/', ListAllInstitution.as_view()), #endpoints de la liste de toutes les institutions
-    path('liste/MAITRE_STAGE/', ListAllMaitreStage.as_view()), #endpoints de la liste de tous les maitres de stage
+    path('liste/etudiants/', ListAllEtudiant.as_view()), #endpoints de la liste des étudiants
+    path('liste/institutions/', ListAllInstitution.as_view()), #endpoints de la liste de toutes les institutions
+    path('liste/maitre-stages/', ListAllMaitreStage.as_view()), #endpoints de la liste de tous les maitres de stage
 ]
 
 

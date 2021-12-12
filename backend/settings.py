@@ -31,7 +31,7 @@ SECRET_KEY = '%v0y^+1pw-r%w#*o-(jkbc(^v2be5-v-n@i)$jk((bxnn)yv!d'
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost']
+ALLOWED_HOSTS = ['localhost', 'monuserapp.herokuapp.com']
 
 # Application definition
 
@@ -196,7 +196,7 @@ USE_TZ = True
 
 PROJECT_ROOT   =   os.path.join(os.path.abspath(__file__))
 STATIC_URL = '/static/'
-STATIC_ROOT  =   os.path.join(PROJECT_ROOT, 'static')
+STATIC_ROOT  =   os.path.join(BASE_DIR, 'static')
 
 # STATICFILES_DIRS = (
 #     os.path.join(BASE_DIR, 'static'),
