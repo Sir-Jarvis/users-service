@@ -1,5 +1,4 @@
 from rest_framework import generics,permissions
-from knox.models import AuthToken
 from rest_framework.response import Response
 
 #from .producer import publish
