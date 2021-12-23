@@ -31,7 +31,7 @@ SECRET_KEY = '%v0y^+1pw-r%w#*o-(jkbc(^v2be5-v-n@i)$jk((bxnn)yv!d'
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['localhost', 'monuserapp.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'mon-api-user.herokuapp.com']
 
 # Application definition
 
@@ -215,9 +215,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = True 
 CORS_ALLOW_CREDENTIALS = True
 
-CORS_ORIGIN_WHITELIST = (
-    "http://localhost:4200",
-)
 
 import dj_database_url 
 prod_db  =  dj_database_url.config(conn_max_age=500)
